@@ -12,23 +12,23 @@
     <h3>TV BOX and TV STICKS</h3>
     <div class="row">
       <div class="swipe-container">
-        <div class="column">
+        <div class="column" data-image="images/pic1.jpg" data-price="R400.00">
           <img src="images/pic1.jpg" alt="Image 1" />
           <p>R400.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic2.jpg" data-price="R350.00">
           <img src="images/pic2.jpg" alt="Image 2" />
           <p>R350.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic3.jpg" data-price="R250.00">
           <img src="images/pic3.jpg" alt="Image 3" />
           <p>R250.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic4.jpg" data-price="R150.00">
           <img src="images/pic4.jpg" alt="Image 4" />
           <p>R150.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic5.jpg" data-price="R200.00">
           <img src="images/pic5.jpg" alt="Image 5" />
           <p>R200.00</p>
         </div>
@@ -39,22 +39,38 @@
 
     <div class="row">
       <div class="swipe-container">
-        <div class="column">
+        <div class="column" data-image="images/pic6.jpg" data-price="R2000.00">
           <img src="images/pic6.jpg" alt="Image 1" />
           <p>R2000.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic8.jpg" data-price="R3000.00">
           <img src="images/pic8.jpg" alt="Image 2" />
           <p>R3000.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic7.jpg" data-price="R3500.00">
           <img src="images/pic7.jpg" alt="Image 3" />
           <p>R3500.00</p>
         </div>
-        <div class="column">
+        <div class="column" data-image="images/pic9.jpg" data-price="R700.00">
           <img src="images/pic9.jpg" alt="Image 4" />
           <p>R700.00</p>
         </div>
+      </div>
+    </div>
+
+    <!-- Cart icon -->
+    <div id="cartIcon">
+      <div id="cartCount">0</div>
+      <!-- Display cart item count here -->
+    </div>
+
+    <!-- Modal with image and price, including 'Add to Cart' button -->
+    <div id="modal" style="display: none">
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="Image" />
+        <p id="modalPrice"></p>
+        <button id="addToCart">Add to Cart</button>
+        <button id="closeModal">Close</button>
       </div>
     </div>
 
